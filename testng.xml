@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="CICD">
+    <test name="CICD">
+        <classes>
+            <class name="testBlockCoverage"/>
+            <class name="testJaCoCoCoverage"/>
+            <class name="testLineCoverage"/>
+        </classes>
+    </test>
+</suite>
